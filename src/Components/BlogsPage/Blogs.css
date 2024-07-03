@@ -1,0 +1,50 @@
+.blog-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height:  100%;; 
+ }
+  
+  .blog {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .blog h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .blog p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .blog p.author {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .read-more-link {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .read-more-link:hover {
+    background-color: #555;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  .blog-data {
+    text-align: justify;
+  }
+  

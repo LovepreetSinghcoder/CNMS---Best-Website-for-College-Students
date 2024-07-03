@@ -1,0 +1,38 @@
+.notesContainer {
+    margin: 0;
+    padding: 10px;
+    background-color: var(--white);
+    min-height: 100vh;
+}
+.notes-cont-inner {
+    width: 1300px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.subnotescont {
+    background-color: #fff;
+    padding: 10px;
+    /* border: 1px solid #3d444b; */
+    /* width: 1035px; */
+    /* border-radius: 10px; */
+}
+.noteheading {
+    background-color: var(--blue);
+    border-radius: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    align-items: center;
+}
+.notesmat {
+    padding: 20px;
+    overflow-x: hidden;
+    min-height: 400px;
+}
+.noteheading>span {
+    font-size: 60px;
+    font-weight: 600;
+}

@@ -1,0 +1,66 @@
+.admin-cont {
+  min-height: 100vh;
+/* background-color: green; */
+padding-top: 50px;
+
+
+}
+
+.admin-panel {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  /* background-color: green; */
+  border-radius: 15px;
+}
+
+.admin-panel h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-panel form {
+  margin-bottom: 20px;
+}
+
+.admin-panel label {
+  font-weight: bold;
+}
+
+.admin-panel input[type="text"],
+.admin-panel textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.admin-panel button {
+  display: block;
+  width: 20%;
+  padding: 8px;
+  background-color: #5d76ff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-panel button:hover {
+  background-color: rgb(74, 126, 180);
+}
+
+.admin-panel .rdw-editor-toolbar {
+  background-color: #f5f5f5;
+  border: none;
+}
+
+.admin-panel .rdw-editor-main {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  min-height: 600px;
+}

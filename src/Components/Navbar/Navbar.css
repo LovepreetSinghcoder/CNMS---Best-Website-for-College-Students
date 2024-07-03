@@ -1,0 +1,125 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Faustina:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+} */
+
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+} */
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    /* color: #fff; */
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+
+/* a:hover {
+    color: #ff0;
+} */
+
+
+.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+/* .nav-main-title  {
+    background-color: green;
+} */
+
+.main-div-nav {
+    width: 100%;
+    height: 4.4rem;
+    background-color: #3d444b;
+    display: flex;
+    justify-content: space-between;
+    color: #ebfeff;
+}
+
+.l-nav {
+    font-family: 'Faustina', serif;
+    padding: 5.5px 5.5px 5.5px 25px;
+    /* font-weight: 500; */
+    font-size: 2.2rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.r-nav,
+.r-nav-res {
+    display: flex;
+    font-family: 'Faustina', serif;
+    font-family: 'Roboto Slab';
+    font-size: 1.3rem;
+    z-index: 99;
+    color: #ebfeff;
+
+}
+
+.r-nav {
+    flex-direction: row;
+    overflow: hidden;
+}
+.r-nav ul li a {
+    color: #ebfeff;
+
+} 
+
+ul {
+    display: block;
+    /* list-style-type: disc; */
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    display: flex;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.active {
+    border-bottom: 2px solid #ebfeff;
+    border-radius: 3px;
+}
+
+.r-nav-res>ul,
+.r-nav>ul {
+    list-style: none;
+    margin-right: 3.5rem;
+}
+
+.nav-bottom,
+.nav-bottom-res {
+    position: absolute;
+    width: 100%;
+    background-color: #5d76ff;
+    box-shadow: 0 5px 20px #3d444b;
+    z-index: 98;
+}
+
+.nav-bottom {
+    height: 0.8vh;
+}
